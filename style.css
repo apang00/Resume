@@ -1,0 +1,125 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Avenir", "Arial", "sans-serif";
+}
+* a {
+  text-decoration: none;
+  color: inherit;
+}
+* li {
+  list-style: none;
+}
+
+/* GENERAL ELEMENT STYLE */
+h1 {
+  font-size: 45pt;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+h3 {
+  font-size: 14pt;
+}
+
+i {
+  vertical-align: middle;
+}
+
+body {
+  width: 8.5in;
+  height: 11in;
+  border: 1px solid #3c3c3c;
+}
+body header {
+  padding: 0 0.4in;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.1in;
+  background-color: #4b77be;
+  width: 100%;
+  color: white;
+}
+body #columns {
+  width: 100%;
+  display: grid;
+  padding: 4% 5%;
+  grid-template-columns: 47.5% 47.5%;
+  grid-gap: 5%;
+}
+body #columns li {
+  font-size: 14px;
+}
+body #columns .bullet {
+  font-family: "Fira Code";
+  color: #4b77be;
+  font-weight: 500;
+}
+body #columns .subtitle-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+body #columns .subtitle-wrapper .date {
+  font-family: "Fira Code", sans-serif;
+  font-size: 13px;
+  margin-top: 3px;
+}
+body #columns .subtitle {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+body #columns .section {
+  margin-bottom: 20px;
+}
+body #columns .section h2 {
+  margin-bottom: 10px;
+}
+body #columns .section .subsection {
+  margin-bottom: 15px;
+}
+body #columns .section .subsection .description li {
+  margin-bottom: 5px;
+  line-height: 16px;
+}
+body #columns .section .subsection .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body #columns .section .subsection .title.no-subtitle {
+  margin-bottom: 6px;
+}
+body #columns .section .subsection .title p {
+  font-size: 14px;
+  padding: 2px 5px;
+  margin: 2px 0;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+  color: #3c3c3c;
+}
+body #columns .section .subsection .title p span {
+  color: #4b77be;
+  font-weight: bold;
+}
+body #columns .languages-list {
+  margin: 5px 0;
+}
+body #columns .languages-list li {
+  padding: 2px 5px;
+  margin: 2px 0;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=style.css.map */

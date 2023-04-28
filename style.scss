@@ -1,0 +1,167 @@
+$accent: #4b77be;
+$grey: #eee;
+$dark-grey: darken($grey, 70%);
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Avenir", "Arial", "sans-serif";
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+
+/* GENERAL ELEMENT STYLE */
+
+// Heading styles
+
+
+h1 {
+  font-size: 44pt;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+h3 {
+  font-size: 14pt;
+}
+
+i {
+  vertical-align: middle; // vertically align icons
+}
+
+body {
+  width: 8.5in;
+  height: 11in;
+  border: 1px solid $dark-grey;
+
+  header {
+    padding: 0 0.4in;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.1in;
+    background-color: $accent;
+    width: 100%;
+    color: white;
+  }
+
+  #columns {
+    width: 100%;
+    display: grid;
+    padding: 4% 5%;
+    grid-template-columns: 47.5% 47.5%;
+    grid-gap: 5%;
+
+    li {
+      font-size: 14px;
+    }
+
+    .bullet {
+      font-family: "Fira Code";
+      color: $accent;
+      font-weight: 500;
+    }
+
+    .subtitle-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+
+      .date {
+        font-family: "Fira Code", sans-serif;
+        font-size: 13px;
+        margin-top: 3px;
+      }
+    }
+
+    .subtitle {
+      font-size: 15px;
+      font-style: italic;
+      margin-bottom: 6px;
+    }
+
+    .section {
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      margin-bottom: 20px;
+
+      .subsection {
+        margin-bottom: 15px;
+
+        .description {
+          li {
+            margin-bottom: 5px;
+            line-height: 16px;
+          }
+        }
+
+        .title {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          &.no-subtitle {
+            margin-bottom: 6px;
+          }
+
+          p {
+            font-size: 14px;
+            padding: 2px 5px;
+            margin: 2px 0;
+            display: inline-block;
+            background-color: $grey;
+            border-radius: 4px;
+            color: $dark-grey;
+
+            span {
+              color: $accent;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+
+    .languages-list {
+      margin: 5px 0;
+
+      li {
+        padding: 2px 5px;
+        margin: 2px 0;
+        display: inline-block;
+        background-color: $grey;
+        border-radius: 4px;
+      }
+    }
+
+    // #education {
+    //   p {
+    //     font-size: 14px;
+    //   }
+
+    //   margin-bottom: 18px;
+
+    //   #years,
+    //   span {
+    //     font-family: "Fira Code";
+    //     margin-bottom: 10px;
+    //   }
+    // }
+  }
+}
