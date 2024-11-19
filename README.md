@@ -1,3 +1,3 @@
-# resume
+# Resume
 
-My resume for 2023. Written in HTML & CSS with SASS precompiler. 
+My resume for 2024. Written in HTML & CSS with SASS precompiler. 
