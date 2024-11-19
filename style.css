@@ -20,6 +20,8 @@ h1 {
 
 h2 {
   font-size: 18pt;
+  margin-top: -8px;
+  margin-bottom: -20px;
 }
 
 h3 {
@@ -41,7 +43,7 @@ body header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 1.1in;
+  height: 0.8in;
   background-color: #4b77be;
   width: 100%;
   color: white;
